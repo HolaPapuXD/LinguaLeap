@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo de fondo -->
+  <circle cx="100" cy="100" r="90" fill="#007AFF" opacity="0.1"/>
+  
+  <!-- Círculo principal -->
+  <circle cx="100" cy="100" r="80" stroke="#007AFF" stroke-width="8" fill="none"/>
+  
+  <!-- Letra L estilizada -->
+  <path d="M60 60 L60 140 L100 140" stroke="#007AFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Punto decorativo -->
+  <circle cx="100" cy="100" r="12" fill="#007AFF"/>
+  
+  <!-- Líneas decorativas -->
+  <line x1="120" y1="60" x2="140" y2="80" stroke="#007AFF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="140" x2="140" y2="120" stroke="#007AFF" stroke-width="4" stroke-linecap="round"/>
+</svg> 

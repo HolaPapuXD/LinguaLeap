@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'boxicons';
+  src: url('../fonts/boxicons.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.bx {
+  font-family: 'boxicons' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bx-book-reader:before {
+  content: "\ea4f";
+}
+
+.bx-arrow-back:before {
+  content: "\ea40";
+}
+
+.bx-time:before {
+  content: "\eaf1";
+}
+
+.bx-book:before {
+  content: "\ea4e";
+}
+
+.bx-target-lock:before {
+  content: "\eaf0";
+}
+
+.bx-check-circle:before {
+  content: "\ea4b";
+}
+
+.bx-x-circle:before {
+  content: "\ea4d";
+}
+
+.bx-pie-chart:before {
+  content: "\ea4c";
+}
+
+.bx-bxl-facebook:before {
+  content: "\ea4a";
+}
+
+.bx-bxl-twitter:before {
+  content: "\ea49";
+}
+
+.bx-bxl-instagram:before {
+  content: "\ea48";
+}
+
+.bx-microphone:before {
+  content: "\ea5a";
+}
+
+.bx-stop-circle:before {
+  content: "\ea5b";
+}
+
+.bx-volume-full:before {
+  content: "\ea5c";
+}
+
+.bx-volume-mute:before {
+  content: "\ea5d";
+} 
