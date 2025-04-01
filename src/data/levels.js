@@ -336,7 +336,7 @@ export const levels = [
               {
                 type: 'sentence-building',
                 words: ['am', 'I', 'fine', 'thank', 'you'],
-                correct: 'I am fine, thank you.'
+                correct: 'I am fine thank you.'
               },
               {
                 type: 'short-essay',
