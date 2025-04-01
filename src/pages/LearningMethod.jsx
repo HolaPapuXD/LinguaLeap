@@ -470,9 +470,9 @@ const LearningMethod = () => {
       
       return;
     } else if (currentExercise.type === 'sentence-building') {
-      // Limpiar puntos al final de ambas respuestas para comparar
-      const cleanUserAnswer = selectedAnswer.toLowerCase().trim().replace(/\.$/, '');
-      const cleanCorrectAnswer = currentExercise.correct.toLowerCase().trim().replace(/\.$/, '');
+      // Limpiar puntos, comas, signos de interrogación y exclamación al comparar respuestas
+      const cleanUserAnswer = selectedAnswer.toLowerCase().trim().replace(/[.,?!;:]/g, '').replace(/\s+/g, ' ');
+      const cleanCorrectAnswer = currentExercise.correct.toLowerCase().trim().replace(/[.,?!;:]/g, '').replace(/\s+/g, ' ');
       isCorrect = cleanUserAnswer === cleanCorrectAnswer;
     } else if (currentExercise.type === 'writing' || currentExercise.type === 'short-essay') {
       console.log('Manejando ejercicio de escritura/short-essay:', {
